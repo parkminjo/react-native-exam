@@ -3,7 +3,7 @@ import { Dimensions, ScrollView, StyleSheet, Text } from 'react-native';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
-export default function TabOneScreen() {
+export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.city}>
